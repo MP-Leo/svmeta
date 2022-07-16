@@ -30,6 +30,10 @@ public class Sale {
     }
 
     // GET AND SET METHODS
+    public Long getId() {
+        return id;
+    }
+
     public String getSellerName() {
         return sellerName;
     }
